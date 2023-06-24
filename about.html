@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Home</title>
+      <link rel="shortcut icon" href="assets/images/icon.png" type="image/x-icon" />
+      <!-- fontawesome link -->
+      <link rel="stylesheet" href="./assets/vendor/fontawesome/all.min.css">
+      <!-- swiper link -->
+      <link rel="stylesheet" href="./assets/vendor/swiper/swiper-bundle.min.css">
+      <!-- bootstrap link -->
+      <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.min.css">
+      <!-- main css -->
+      <link rel="stylesheet" href="./assets/css/style.css">
+   </head>
+   <body>
+      <!-- header -->
+      <header class="d-flex justify-content-between align-items-center px-md-5">
+         <a href="index.html" class="logo">
+         <i class="fa-sharp fa-solid fa-store"></i>
+         Shopie
+         </a>
+         <form class="search-form d-flex align-items-center">
+            <input type="search" placeholder="search" id="search" autocomplete="off">
+            <!-- <label for="search" class="fa-solid fa-magnifying-glass"></label> -->
+         </form>
+         <div class="icons">
+            <div id="menu-btn" class="fa-solid fa-bars"></div>
+            <div id="search-btn" class="fa-solid fa-magnifying-glass"></div>
+            <a href="login.html" class="fa-solid fa-user"></a>
+            <a href="#" class="fa-solid fa-heart"></a>
+            <a href="cart.html" class="fa-solid fa-cart-shopping"></a>
+         </div>
+      </header>
+      <!-- end header -->
+      <!-- sidebar section -->
+      <div class="side-bar">
+         <div id="close-side-bar" class="fa-solid fa-xmark"></div>
+         <div class="user">
+            <img src="assets/images/user-img.png">
+            <h3>Abdelrahman</h3>
+            <a href="#">Log Out</a>
+         </div>
+         <div class="side-bar-nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>      
+            <a href="contact.html">Contact</a>
+            <a href="login.html">LogIn</a>
+            <a href="register.html">Register</a>
+            <a href="cart.html">Cart</a>
+         </div>
+      </div>
+      <!-- end sidebar section -->
+      <!-- about -->
+      <section class="about py-4 px-md-5">
+         <div class="row d-flex align-items-center justify-content-center">
+            <div class="about-img col-md-5 me-md-auto">
+               <img src="assets/images/about-img.png" width="100%" class="img-fluid">
+            </div>
+            <div class="content col-md-6">
+               <h3>Our Story</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat asperiores maiores neque id. Consectetur, distinctio. Aspernatur, dolor hic dignissimos illo quaerat repudiandae facere amet. Cupiditate quia minima ratione iste eos.</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat asperiores maiores neque id. Consectetur, distinctio. Aspernatur, dolor hic dignissimos</p>
+               <a href="#" class="btn btn-sm btn-primary">Read More</a>
+            </div>
+         </div>
+      </section>
+      <!-- end about -->
+      <!-- faq -->
+      <section class="faq">
+         <h2 class="heading">questions & <span>answers</span></h2>
+         <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button text-capitalize" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  how to make website
+                  </button>
+               </h2>
+               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat asperiores maiores neque id. Consectetur, distinctio. Aspernatur, dolor hic dignissimos illo quaerat repudiandae facere amet. Cupiditate quia minima ratione iste eos
+                  </div>
+               </div>
+            </div>
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button text-capitalize" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                  how to make website
+                  </button>
+               </h2>
+               <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat asperiores maiores neque id. Consectetur, distinctio. Aspernatur, dolor hic dignissimos illo quaerat repudiandae facere amet. Cupiditate quia minima ratione iste eos
+                  </div>
+               </div>
+            </div>
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button text-capitalize" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                  how to place order online
+                  </button>
+               </h2>
+               <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat asperiores maiores neque id. Consectetur, distinctio. Aspernatur, dolor hic dignissimos illo quaerat repudiandae facere amet. Cupiditate quia minima ratione iste eos
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end faq -->
+      <!-- review -->
+      <section class="review position-relative px-sm-5 py-4 overflow-hidden">
+         <h2 class="heading">Clients <span>Review</span></h2>
+         <div class="swiper about-slide">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide">
+                  <img src="assets/images/pic-1.png">
+                  <h4>John Deo</h4>
+                  <span>Designer</span>
+                  <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat asperiores maiores neque id. Consectetur, distinctio
+                  </p>
+               </div>
+               <div class="swiper-slide">
+                  <img src="assets/images/pic-2.png">
+                  <h4>John Deo</h4>
+                  <span>Designer</span>
+                  <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat asperiores maiores neque id. Consectetur, distinctio
+                  </p>
+               </div>
+               <div class="swiper-slide">
+                  <img src="assets/images/pic-3.png">
+                  <h4>John Deo</h4>
+                  <span>Designer</span>
+                  <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat asperiores maiores neque id. Consectetur, distinctio
+                  </p>
+               </div>
+               <div class="swiper-slide">
+                  <img src="assets/images/pic-4.png">
+                  <h4>John Deo</h4>
+                  <span>Designer</span>
+                  <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat asperiores maiores neque id. Consectetur, distinctio
+                  </p>
+               </div>
+               <div class="swiper-slide">
+                  <img src="assets/images/pic-5.png">
+                  <h4>John Deo</h4>
+                  <span>Designer</span>
+                  <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat asperiores maiores neque id. Consectetur, distinctio
+                  </p>
+               </div>
+               <div class="swiper-slide">
+                  <img src="assets/images/pic-6.png">
+                  <h4>John Deo</h4>
+                  <span>Designer</span>
+                  <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat asperiores maiores neque id. Consectetur, distinctio
+                  </p>
+               </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+         </div>
+      </section>
+      <!-- end review -->
+      <!-- footer -->
+      <footer class="d-flex justify-content-between align-items-center bg-dark px-md-5">
+         <a href="index.html" class="logo">
+         <i class="fa-sharp fa-solid fa-store"></i>
+         Shopie
+         </a>
+         <div class="footer-links text-center">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>      
+            <a href="contact.html">Contact</a>
+            <a href="login.html">LogIn</a>
+            <a href="register.html">Register</a>
+            <a href="cart.html">Cart</a>
+         </div>
+         <div class="social-media">
+            <a href="#" class="fa-brands fa-facebook-f"></a>
+            <a href="#" class="fa-brands fa-twitter"></a>
+            <a href="#" class="fa-brands fa-instagram"></a>
+            <a href="#" class="fa-brands fa-linkedin-in"></a>
+         </div>
+      </footer>
+      <section class="creadit d-flex justify-content-between align-items-center px-md-5">
+         <p>Coding by <span>Abdelrahman</span></p>
+         <img src="assets/images/card_img.png">
+      </section>
+      <!-- end footer -->
+      <!-- swiper link -->
+      <script src="./assets/vendor/swiper/swiper-bundle.min.js"></script>
+      <!-- bootstrap link -->
+      <script src="./assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+      <!-- main js -->
+      <script src="./assets/Js/main.js"></script>
+   </body>
+</html>

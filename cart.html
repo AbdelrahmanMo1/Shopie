@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Home</title>
+      <link rel="shortcut icon" href="assets/images/icon.png" type="image/x-icon" />
+      <!-- fontawesome link -->
+      <link rel="stylesheet" href="./assets/vendor/fontawesome/all.min.css">
+      <!-- swiper link -->
+      <link rel="stylesheet" href="./assets/vendor/swiper/swiper-bundle.min.css">
+      <!-- bootstrap link -->
+      <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.min.css">
+      <!-- main css -->
+      <link rel="stylesheet" href="./assets/css/style.css">
+   </head>
+   <body>
+ <!-- header -->
+      <header class="d-flex justify-content-between align-items-center px-sm-5">
+         <a href="index.html" class="logo">
+         <i class="fa-sharp fa-solid fa-store"></i>
+         Shopie
+         </a>
+         <form class="search-form d-flex align-items-center">
+            <input type="search" placeholder="search" id="search" autocomplete="off">
+            <!-- <label for="search" class="fa-solid fa-magnifying-glass"></label> -->
+         </form>
+         <div class="icons">
+            <div id="menu-btn" class="fa-solid fa-bars"></div>
+            <div id="search-btn" class="fa-solid fa-magnifying-glass"></div>
+            <a href="login.html" class="fa-solid fa-user"></a>
+            <a href="#" class="fa-solid fa-heart"></a>
+            <a href="cart.html" class="fa-solid fa-cart-shopping"></a>
+         </div>
+      </header>
+      <!-- end header -->
+      <!-- sidebar section -->
+      <div class="side-bar">
+         <div id="close-side-bar" class="fa-solid fa-xmark"></div>
+         <div class="user">
+            <img src="assets/images/user-img.png">
+            <h3>Abdelrahman</h3>
+            <a href="#">Log Out</a>
+         </div>
+         <div class="side-bar-nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>      
+            <a href="contact.html">Contact</a>
+            <a href="login.html">LogIn</a>
+            <a href="register.html">Register</a>
+            <a href="cart.html">Cart</a>
+         </div>
+      </div>
+      <!-- end sidebar section -->
+      <!-- shopping cart -->
+      <section class="shopping-cart my-5 px-5">
+         <h1 class="heading">Your <span>Products</span></h1>
+         <div class="box-container">
+            <div class="box">
+               <i class="fa-solid fa-xmark"></i>
+               <img src="assets/images/product-1.jpg">
+               <div class="content">
+                  <h4>Smartphone</h4>
+                  <form>
+                     <span>quantity : </span>
+                     <input type="number" value="1" min="1" max="10">
+                  </form>
+                  <div class="price">$249.99 <del>$399.99</del></div>
+               </div>
+            </div>
+            <div class="box">
+               <i class="fa-solid fa-xmark"></i>
+               <img src="assets/images/product-2.jpg">
+               <div class="content">
+                  <h4>Camera</h4>
+                  <form>
+                     <span>quantity : </span>
+                     <input type="number" value="1" min="1" max="10">
+                  </form>
+                  <div class="price">$249.99 <del>$399.99</del></div>
+               </div>
+            </div>
+            <div class="box">
+               <i class="fa-solid fa-xmark"></i>
+               <img src="assets/images/product-3.jpg">
+               <div class="content">
+                  <h4>Television</h4>
+                  <form>
+                     <span>quantity : </span>
+                     <input type="number" value="1" min="1" max="10">
+                  </form>
+                  <div class="price">$249.99 <del>$399.99</del></div>
+               </div>
+            </div>
+            <div class="box">
+               <i class="fa-solid fa-xmark"></i>
+               <img src="assets/images/product-4.jpg">
+               <div class="content">
+                  <h4>Speaker</h4>
+                  <form>
+                     <span>quantity : </span>
+                     <input type="number" value="1" min="1" max="10">
+                  </form>
+                  <div class="price">$249.99 <del>$399.99</del></div>
+               </div>
+            </div>
+            <div class="box">
+               <i class="fa-solid fa-xmark"></i>
+               <img src="assets/images/product-6.jpg">
+               <div class="content">
+                  <h4>Smartwatch</h4>
+                  <form>
+                     <span>quantity : </span>
+                     <input type="number" value="1" min="1" max="10">
+                  </form>
+                  <div class="price">$249.99 <del>$399.99</del></div>
+               </div>
+            </div>
+         </div>
+         <div class="cart-total mt-5 p-3">
+            <h6>Subtotal : <span>$1999</span></h6>
+            <h6>discount : <span>-$99</span></h6>
+            <h6>Subtotal : <span>$1900</span></h6>
+            <a href="#" class="btn btn-primary">Proceed To Checkout</a>
+         </div>
+      </section>
+      <!-- end shopping cart -->
+      <!-- footer -->
+      <footer class="d-flex justify-content-between align-items-center bg-dark px-md-5">
+         <a href="index.html" class="logo">
+         <i class="fa-sharp fa-solid fa-store"></i>
+         Shopie
+         </a>
+         <div class="footer-links text-center">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>      
+            <a href="contact.html">Contact</a>
+            <a href="login.html">LogIn</a>
+            <a href="register.html">Register</a>
+            <a href="cart.html">Cart</a>
+         </div>
+         <div class="social-media">
+            <a href="#" class="fa-brands fa-facebook-f"></a>
+            <a href="#" class="fa-brands fa-twitter"></a>
+            <a href="#" class="fa-brands fa-instagram"></a>
+            <a href="#" class="fa-brands fa-linkedin-in"></a>
+         </div>
+      </footer>
+      <section class="creadit d-flex justify-content-between align-items-center px-md-5">
+         <p>Coding by <span>Abdelrahman</span></p>
+         <img src="assets/images/card_img.png">
+      </section>
+      <!-- end footer -->
+      <!-- swiper link -->
+      <script src="./assets/vendor/swiper/swiper-bundle.min.js"></script>
+      <!-- bootstrap link -->
+      <script src="./assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+      <!-- main js -->
+      <script src="./assets/Js/main.js"></script>
+   </body>
+</html>
